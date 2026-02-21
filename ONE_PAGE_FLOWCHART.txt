@@ -1,0 +1,119 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║          SMART AI RESUME ANALYZER - ONE PAGE FLOWCHART                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+                            ┌─────────────────┐
+                            │   USER LOGIN    │
+                            │  (Streamlit UI) │
+                            └────────┬────────┘
+                                     │
+                    ┌────────────────┼────────────────┐
+                    │                │                │
+                    ▼                ▼                ▼
+            ┌──────────────┐ ┌──────────────┐ ┌──────────────┐
+            │   ANALYZE    │ │    BUILD     │ │   JOB SEARCH  │
+            │   RESUME     │ │   RESUME     │ │               │
+            └──────┬───────┘ └──────┬───────┘ └──────┬───────┘
+                    │                │                │
+                    ▼                ▼                ▼
+            ┌──────────────┐ ┌──────────────┐ ┌──────────────┐
+            │ Upload PDF/  │ │ Select       │ │ Enter Job    │
+            │ DOCX File    │ │ Template     │ │ Keywords     │
+            └──────┬───────┘ └──────┬───────┘ └──────┬───────┘
+                    │                │                │
+                    ▼                ▼                ▼
+            ┌──────────────┐ ┌──────────────┐ ┌──────────────┐
+            │ Extract Text │ │ Fill Sections│ │ Scrape       │
+            │ (pdfplumber/ │ │ (Personal,    │ │ LinkedIn     │
+            │  OCR)        │ │  Experience,  │ │ (Selenium)    │
+            └──────┬───────┘ │  Skills)     │ └──────┬───────┘
+                    │        └──────┬───────┘        │
+                    │               │                │
+                    ▼               ▼                ▼
+            ┌──────────────┐ ┌──────────────┐ ┌──────────────┐
+            │ Select Job   │ │ Generate     │ │ Display Job  │
+            │ Role & Upload│ │ Resume PDF   │ │ Listings     │
+            │ Job Desc     │ └──────────────┘ └───────────────┘
+            └──────┬───────┘
+                    │
+                    ▼
+        ╔═══════════════════════════════════════════════════╗
+        ║         ANALYSIS PROCESSING LAYER                  ║
+        ║  ┌─────────────────────────────────────────────┐  ║
+        ║  │  Custom ML Scorer (Default)                │  ║
+        ║  │  • Extract Skills (Pattern + NER)         │  ║
+        ║  │  • TF-IDF Vectorization                    │  ║
+        ║  │  • Cosine Similarity (Resume ↔ Job Desc)  │  ║
+        ║  │  • Section Completeness Check             │  ║
+        ║  │  • Action Verb Analysis                    │  ║
+        ║  │  • Format Quality Assessment              │  ║
+        ║  │  • Multi-Factor Scoring (5 components)   │  ║
+        ║  └─────────────────────────────────────────────┘  ║
+        ║  ┌─────────────────────────────────────────────┐  ║
+        ║  │  OR AI Analyzer (Optional - Gemini API)     │  ║
+        ║  │  • Advanced AI Processing                   │  ║
+        ║  │  • Contextual Recommendations              │  ║
+        ║  └─────────────────────────────────────────────┘  ║
+        ╚═══════════════════════════════════════════════════╝
+                    │
+                    ▼
+        ┌───────────────────────────────────────┐
+        │      CALCULATE SCORES                 │
+        │  • Overall ATS Score (0-100)          │
+        │  • Skills Score (25% weight)          │
+        │  • Section Score (20% weight)         │
+        │  • Format Score (20% weight)          │
+        │  • Action Verbs (15% weight)          │
+        │  • Keyword Match (20% weight)        │
+        └───────────────┬───────────────────────┘
+                        │
+                        ▼
+        ┌───────────────────────────────────────┐
+        │      GENERATE RECOMMENDATIONS         │
+        │  • Missing Skills                     │
+        │  • Section Improvements               │
+        │  • Format Suggestions                 │
+        │  • Keyword Additions                  │
+        │  • Course Recommendations             │
+        └───────────────┬───────────────────────┘
+                        │
+                        ▼
+        ┌───────────────────────────────────────┐
+        │      SAVE TO SQLite DATABASE          │
+        │  Tables:                              │
+        │  • resume_data                        │
+        │  • resume_skills                      │
+        │  • resume_analysis                    │
+        │  • admin_logs                        │
+        └───────────────┬───────────────────────┘
+                        │
+                        ▼
+        ┌───────────────────────────────────────┐
+        │      DISPLAY RESULTS                   │
+        │  • Score Visualization (Charts)       │
+        │  • Skills Breakdown                   │
+        │  • Recommendations List               │
+        │  • Download PDF Report                │
+        │  • Dashboard Analytics                │
+        └───────────────────────────────────────┘
+                        │
+                        ▼
+                      END
+
+═══════════════════════════════════════════════════════════════════════════════
+
+KEY COMPONENTS:
+• Frontend: Streamlit Web UI
+• Backend: Python (Business Logic)
+• ML Layer: Custom ATS Scorer (TF-IDF + Cosine Similarity)
+• AI Layer: Google Gemini API (Optional)
+• Database: SQLite3 (Local File-based)
+• Processing: pdfplumber, spaCy, NLTK, scikit-learn
+
+MAIN FEATURES:
+1. Resume Analyzer - Upload & Analyze resumes
+2. Resume Builder - Create resumes from templates
+3. Job Search - Scrape & match jobs
+4. Dashboard - Analytics & statistics
+5. Feedback System - User feedback collection
+
