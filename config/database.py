@@ -82,6 +82,14 @@ def init_database():
     )
     ''')
     
+    # Seed default admin if no admin exists (needed for fresh deploys e.g. Streamlit Cloud)
+    cursor.execute('SELECT COUNT(*) FROM admin')
+    if cursor.fetchone()[0] == 0:
+        cursor.execute(
+            'INSERT INTO admin (email, password) VALUES (?, ?)',
+            ('admin@example.com', 'admin123')
+        )
+    
     conn.commit()
     conn.close()
 
