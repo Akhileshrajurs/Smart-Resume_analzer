@@ -450,11 +450,11 @@ Join the mission! Here's how:
 <tr>  
 <td align="center"><b>
    
-   [🔍 RESUME ANALYZER(According To Roles Course Recommendations)](https://resumind.streamlit.app/)
+   [🔍 RESUME ANALYZER(According To Roles Course Recommendations)]()
    </b></td>  
 <td align="center"><b>
    
-   [🔍 RESUME ANALYZER(Videos Recommendations)](https://resumind.streamlit.app/)
+   [🔍 RESUME ANALYZER(Videos Recommendations)]()
    </b></td>  
 </tr>  
 <tr>  
@@ -468,7 +468,7 @@ Join the mission! Here's how:
 </b></td>  
 <td align="center"><b>
    
-   [📊 DASHBOARD](https://resumind.streamlit.app/)
+   [📊 DASHBOARD]()
 </b></td>  
 </tr>  
 <tr>  
@@ -478,11 +478,11 @@ Join the mission! Here's how:
 <tr>  
 <td align="center"><b>
    
-   [🎯 JOB SEARCH](https://resumind.streamlit.app/)
+   [🎯 JOB SEARCH]()
    </b></td>  
 <td align="center"><b>
    
-   [🎯 JOB SEARCH(📊 Job Market Insights & 🏢 Featured Companies)](https://resumind.streamlit.app/)
+   [🎯 JOB SEARCH(📊 Job Market Insights & 🏢 Featured Companies)]()
    </b></td>  
 </tr>  
 <tr>  
@@ -492,11 +492,11 @@ Join the mission! Here's how:
 <tr>  
 <td align="center"><b>
    
-   [💬 FEEDBACK](https://resumind.streamlit.app/)
+   [💬 FEEDBACK]()
    </b></td>  
 <td align="center"><b>
    
-   [ℹ️ ABOUT](https://resumind.streamlit.app/)
+   [ℹ️ ABOUT]()
    </b></td>  
 </tr>  
 <tr>  
@@ -515,11 +515,11 @@ Join the mission! Here's how:
 <tr>  
 <td align="center"><b>  
    
-   [🔍 AI Resume Analysis (Custom Job Description)](https://resumind.streamlit.app/)
+   [🔍 AI Resume Analysis (Custom Job Description)]()
    </b></td>  
 <td align="center"><b>  
    
-   [📊 AI Resume Score & Statistics](https://resumind.streamlit.app/)
+   [📊 AI Resume Score & Statistics]()
 </b></td>  
 </tr>  
 
@@ -531,11 +531,11 @@ Join the mission! Here's how:
 <tr>  
 <td align="center"><b>  
    
-   [📄 AI-Generated PDF Resume Report](https://resumind.streamlit.app/)
+   [📄 AI-Generated PDF Resume Report]()
    </b></td>  
 <td align="center"><b>  
    
-   [📊 AI Resume Analysis Insights](https://resumind.streamlit.app/)
+   [📊 AI Resume Analysis Insights]()
    </b></td>  
 </tr>  
 
@@ -547,11 +547,11 @@ Join the mission! Here's how:
 <tr>  
 <td align="center"><b>  
    
-   [🔗 LinkedIn Job Scraper (Search Results)](https://resumind.streamlit.app/)
+   [🔗 LinkedIn Job Scraper (Search Results)]()
    </b></td>  
 <td align="center"><b>  
    
-   [🏢 LinkedIn Scraper (Job Listings UI)](https://resumind.streamlit.app/)
+   [🏢 LinkedIn Scraper (Job Listings UI)]()
    </b></td>  
 </tr>  
 
