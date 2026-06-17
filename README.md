@@ -64,8 +64,7 @@
 
 
 ## 🔗 **Helpful Links**
-
-- [![Streamlit Badge](https://img.shields.io/badge/Live%20Demo-Streamlit-orange?style=for-the-badge&logo=streamlit&logoColor=white)](#-live-demo)  
+ 
 
 - [![AI Models Badge](https://img.shields.io/badge/AI%20Models-Documentation-purple?style=for-the-badge&logo=openai&logoColor=white)](AI_MODELS.md)  
   
@@ -93,7 +92,7 @@
 Get real-time feedback, boost your resume's impact, and maximize your chances of getting shortlisted—all with a sleek and intuitive interface.  
 
 ## <img src="https://github.com/user-attachments/assets/e5ac1371-6ac4-48b6-b95c-5ef9afaf1353" width="30"> **Live Demo**  
-👨‍💻 Run locally with `streamlit run app.py` or deploy to [Streamlit Cloud](https://streamlit.io/cloud) and add your app URL here.  
+👨‍💻 Run locally with `streamlit run app.py` or deploy to [Streamlit Cloud].
 
 
 ## <img src="https://github.com/user-attachments/assets/0cefad05-58a9-4aa0-a070-f75a0c9b0353" height="32px">  Tech Stack 
@@ -281,78 +280,7 @@ admin123
 ### 🔹 Admin Panel Access:
    - The **Admin Section** will be visible **only after login**, right below the **Dashboard** section.
 
-<!--### Deploy to Streamlit Cloud
 
-1. Push your code to GitHub
-2. Sign up for [Streamlit Cloud](https://streamlit.io/cloud)
-3. Create a new app and connect it to your GitHub repository
-4. Add your API keys as secrets in the Streamlit Cloud dashboard
-5. Deploy the app
-
-### Deploy with Docker
-
-1. Build the Docker image:
-   ```bash
-   docker build -t smart-resume-analyzer .
-   ```
-
-2. Run the container:
-   ```bash
-   docker run -p 8501:8501 -e GOOGLE_API_KEY=your_key smart-resume-analyzer
-   ```
-
-## Project Structure
-
-```
-Smart-AI-Resume-Analyzer/
-├── app.py                  # Main application file
-├── config/                 # Configuration files
-│   ├── courses.py          # Course recommendations
-│   ├── database.py         # Database operations
-│   └── job_roles.py        # Job role definitions
-├── dashboard/              # Dashboard components
-├── feedback/               # Feedback system
-├── jobs/                   # Job search functionality
-├── static/                 # Static assets
-│   ├── css/                # CSS files
-│   └── images/             # Image files
-├── style/                  # Style definitions
-├── templates/              # Resume templates
-├── ui_components/          # UI components
-├── utils/                  # Utility functions
-│   ├── ai_resume_analyzer.py  # AI analysis logic
-│   ├── resume_analyzer.py     # Standard analysis logic
-│   └── resume_builder.py      # Resume builder logic
-├── .env                    # Environment variables (not in git)
-├── .gitignore              # Git ignore file
-├── Dockerfile              # Docker configuration
-├── LICENSE                 # License file
-├── README.md               # This file
-└── requirements.txt        # Python dependencies
-```
-
-## Troubleshooting
-
-### Common Issues
-
-1. **PDF Extraction Fails**: Ensure Tesseract OCR is properly installed and in your PATH
-2. **API Key Errors**: Verify your API keys in the `.env` file
-3. **Missing Dependencies**: Run `pip install -r requirements.txt` again
-
-### Getting Help
-
-If you encounter any issues, please [open an issue](https://github.com/yourusername/Smart-AI-Resume-Analyzer/issues) on GitHub.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
--->
 
 ## Known Bug 🚨 Autofill Glitch in Resume Builder!  
 
@@ -421,25 +349,21 @@ Join the mission! Here's how:
 <tr>  
 <td align="center"><b>
    
-   [🏠 HOME](https://resumind.streamlit.app/)
+   [🏠 HOME]()
    </b></td>  
 <td align="center"><b>
    
-   [🔍 RESUME ANALYZER(Below Example Analysis of Backend Deeveloper)](https://resumind.streamlit.app/)
+   [🔍 RESUME ANALYZER(Below Example Analysis of Backend Deeveloper)]()
 </b></td>  
 </tr>  
 <tr>  
-<td><img src="https://github.com/user-attachments/assets/2dc1b44d-7eb6-4371-81f9-3a140f83064c" alt="🏠 HOME" width="500px"></td>  
-<td><img src="https://github.com/user-attachments/assets/b9f4c7b0-fbd6-40c4-9d8b-231d9fdd91a7" alt="🔍 RESUME ANALYZER" width="500px"></td>  
-</tr>  
-<tr>  
 <td align="center"><b>
    
-   [🔍 RESUME ANALYZER(Score And Recommendations)](https://resumind.streamlit.app/)
+   [🔍 RESUME ANALYZER(Score And Recommendations)]()
    </b></td>  
 <td align="center"><b>
    
-   [🔍 RESUME ANALYZER(According To Roles Recommendations)](https://resumind.streamlit.app/)
+   [🔍 RESUME ANALYZER(According To Roles Recommendations)]()
    </b></td>  
 </tr>  
 <tr>  
